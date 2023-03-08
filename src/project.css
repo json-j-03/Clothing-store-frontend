@@ -1,0 +1,45 @@
+form {
+    background-image: url('https://img.freepik.com/free-vector/gradient-background-green-tones_23-2148374530.jpg');
+    background: -webkit-linear-gradient(to bottom, #CCCCCC, #EEEEEE 175px);
+    background: -moz-linear-gradient(to bottom, #CCCCCC, #EEEEEE 175px);
+    background: linear-gradient(to bottom, #CCCCCC, #EEEEEE 175px);
+    margin: auto;
+    position: relative;
+    width: 550px;
+    height: 450px;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: bold;
+    color: #09C;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  }
+  button.submit{
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #fff;
+    color: #09C;
+    font-family: Tahoma, Geneva, sans-serif;
+    height: 30px;
+    border-radius: 15px;
+    border: 1p solid #999;
+  }
+  textarea#feedback {
+    width: 375px;
+    height: 150px;
+    display: block;
+  }
+  button:hover {
+    background: #09C;
+    color: #fff;
+  }
